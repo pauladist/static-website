@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	background-image: url(assets/banner-bg.jpg);
+	background-image: url(assets/cloud-computing-servicios.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -40,11 +40,27 @@ header {
 	border-bottom: 1px solid white;
 }
 
+.logo img {
+	width: 60px;
+	height: auto;
+}
+
+.logo-text {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
 .logo {
 	width: 100px;
+	display: flex;
 	height: auto;
 	float: left;
+	align-items: center;
 	margin-top: 30px;
+	filter: brightness(0) invert(1);
 }
 
 .row {
@@ -84,11 +100,11 @@ h1 {
 }
 
 .btn-one {
-	background-color: darkorange;
+	background-color: #04192c;
 }
 
 .btn-two:hover {
-	background-color: darkorange;
+	background-color: #04192c;
 	transition: all 0.2s ease-in;
 }
 
@@ -103,21 +119,21 @@ h1 {
 }
 
 .service {
-	background-image: url(assets/img-banner@2x.png);
+	background-image: url(assets/provcloud-imagen.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .about {
-	background-image: url(assets/DSC_0036.JPG);
+	background-image: url(assets/saas-concept-collage.webp);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .blog {
-	background-image: url(assets/banner-texture@2x.png);
+	background-image: url(assets/el-futuro-del-cloud-computing.webp);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -125,14 +141,14 @@ h1 {
 }
 
 .contact {
-	background-image: url(assets/img-contact-form-bg.jpg);
+	background-image: url(assets/Cloud-header-image-770X421.webp);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .faq {
-	background-image: url(assets/img-prop-type@2x.jpg);
+	background-image: url(assets/que-es-el-cloud-computing.webp);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -145,7 +161,7 @@ h1 {
 }
 
 .contact-section-header {
-	color: #282828;
+	color: azure;
 	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	margin-bottom: 20px;
@@ -164,7 +180,7 @@ h1 {
 }
 
 .form input.button {
-    background-color: #4CAF50; /* Green */
+    background-color:#163d69;
     border: none;
     color: white;
     width: 71%;
@@ -192,10 +208,10 @@ input[type=number]::-webkit-inner-spin-button,
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   	.blog {
-    	background-image: url(assets/banner-texture@2x.png) !important;
+    	background-image: url(assets/el-futuro-del-cloud-computing.webp) !important;
   	}
 
   	.faq {
-    	background-image: url(assets/img-prop-type@2x.jpg) !important;
+    	background-image: url(assets/que-es-el-cloud-computing.webp) !important;
   	}
 }
